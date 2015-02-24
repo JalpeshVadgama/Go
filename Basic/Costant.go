@@ -1,13 +1,11 @@
 // Package main provides ...
 package main
+
 import (
-	"fmt",
-	"math"
+	"fmt"
 )
-func PrintCostant() {
-	const nameCosntant  string ="Jalpesh Vadgama"
-	fmt.PrintLn(nameCosntant)
-	
-	const pi int = 22 / 7
-	fmt.PrintLn(pi)
-	}
+
+func PrintConstant() {
+	const name string = "Jalpesh Vadgama"
+	fmt.Printf(name)
+}
